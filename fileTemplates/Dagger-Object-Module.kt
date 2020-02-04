@@ -6,7 +6,6 @@ import dagger.Provides
 #parse("File Header.java")
 @Module
 object ${NAME} {
-    @JvmStatic
     @Provides
-    fun provideDependency() = "dependencyValue"
+    fun provideDependency(): String = "dependencyValue"
 }

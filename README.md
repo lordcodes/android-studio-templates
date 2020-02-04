@@ -31,17 +31,17 @@ A selection of templates for use within Android Studio (or IntelliJ), focusing o
 
 ## File Templates
 
-### [Dagger Activity Module](fileTemplates/Dagger-Activity-Module.kt)
+### [Dagger Abstract Module](fileTemplates/Dagger-Abstract-Module.kt)
 
-A module for Dagger Android that uses @ContributesAndroidInjector for injection into an Activity.
+An abstract module for Dagger that can use @Binds and Dagger Android @ContributesAndroidInjector.
 
-### [Dagger Static Module](fileTemplates/Dagger-Static-Module.kt)
+### [Dagger Object Module](fileTemplates/Dagger-Object-Module.kt)
 
-A static module for Dagger to provide regular (non-component dependencies)
+An object module for Dagger to provide regular (non-component dependencies).
 
 ### [Kotlin data class](fileTemplates/Kotlin-Data-Class.kt)
 
-Create a basic Kotlin data class really quickly
+Create a basic Kotlin data class really quickly.
 
 ## Contributing
 
